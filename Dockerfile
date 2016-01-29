@@ -22,7 +22,7 @@ RUN chmod u+x  /start.sh
 
 ENV RUN_AS_ROOT="true" \
     CHANGE_DIR_RIGHTS="false" \
-    CHANGE_CONFIG_DIR_OWNERSHIP="true" \
+    CHANGE_CONFIG_DIR_OWNERSHIP="false" \
     HOME="/volumes/config"
 
 EXPOSE 32400
